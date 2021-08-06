@@ -28,6 +28,8 @@ The authorization protocol that this API requires to authenticate your app users
 **Create authorization credentials:** (Any application that uses OAuth 2.0 to access Google APIs must have authorization credentials that identify the application to Google's OAuth 2.0 server. The following steps explain how to create credentials for your project. Your applications can then use the credentials to access APIs that you have enabled for that project.)
 
     1. Go to the Credentials page.
+    2. If prompted, Fill out the required fields on the OAuth consent screen.
     2. Click Create credentials > OAuth client ID.
     3. Select the TVs and Limited Input devices application type.
     4. Name your OAuth 2.0 client and click Create.
+    5. Download the credentials by clicking the Download JSON button. Rename it to client_secret.json.
